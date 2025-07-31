@@ -1,0 +1,13 @@
+INSERT INTO poflie (id_student, fname, lname, majer)
+VALUES
+('4561','ชื่อเอ','นามสกุลเอ','วิทยาการคอมพิวเตอร์'),
+('4562','ชื่อบี','นามสกุลบี','ชีววิทยา'),
+('4563','ชื่อซี','นามสกุลซี','เคมี');
+
+delete 
+DELETE FROM poflie WHERE id_student = 4562;
+
+update
+UPDATE poflie
+SET majer = 'คณิตศาสตร์'
+WHERE id_student = '4563';
